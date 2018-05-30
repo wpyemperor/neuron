@@ -1,0 +1,6 @@
+numpy
+requests
+timer
+networkx
+bottle
+anytree
