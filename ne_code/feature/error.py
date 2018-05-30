@@ -828,7 +828,7 @@ def feature_extract(rootdir, for_tree=True, random_n=True, count=0):
         #open the selected file
         #fname=input('Enter filename:')
         try:
-                fobj=open('/home/wpy/dataset/error.txt','a')               
+                fobj=open('/ne_code/error_test/error.txt','a')               
         except IOError:
                 print ('*** file open error:')
         else:
@@ -972,6 +972,6 @@ def downsampling(nodetype):
 
 
 if __name__ == '__main__':
-    feature_extract('/home/wpy/dataset/error', False, True, 50)
+    feature_extract('/ne_code/error_test', False, False)
     # upsampling(2)
     # downsampling(1)

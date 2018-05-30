@@ -12,7 +12,6 @@ import os
 from anytree import NodeMixin, iterators, RenderTree
 import math
 import random
-import pdb
 import numpy as np
 def Make_Virtual():
     return SwcNode(nid=-1)
@@ -828,7 +827,7 @@ def feature_extract(rootdir, for_tree=True, random_n=True, count=0):
         #open the selected file
         #fname=input('Enter filename:')
         try:
-                fobj=open('/home/wpy/dataset/aramal.txt','a')               
+                fobj=open('.../ne_code/test.txt','a')               
         except IOError:
                 print ('*** file open error:')
         else:
@@ -972,6 +971,6 @@ def downsampling(nodetype):
 
 
 if __name__ == '__main__':
-    feature_extract('/home/wpy/dataset/rh/amaral', False, True, 50)
+    feature_extract('.../ne_code/test', False, False)
     # upsampling(2)
     # downsampling(1)
