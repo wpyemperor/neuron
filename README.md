@@ -17,3 +17,4 @@ sklearn
 运行ne_code/network/scmcv下代码，可分别输出随机森林（skrf_scvcm），决策树（skdt_scvcm），svm（svm_scvcm.py）的训练结果以及混淆矩阵
 
 ## 其余代码说明
+stastic.py可以用于统计各个标签的数量
