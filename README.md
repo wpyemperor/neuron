@@ -4,7 +4,12 @@
 ## 主要依赖
 pyzem
 https://github.com/janelia-flyem/pyzem　
+
 sklearn
+scipy
+numpy
+matplotlib
+pandas
 
 ## 代码运行
 生物学类型判别
