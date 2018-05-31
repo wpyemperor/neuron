@@ -13,11 +13,13 @@ pandas
 
 ## 代码运行
 生物学类型判别
+在运行代码前，需要事先在test文件夹中创建空的txt文件，如test.txt
 运行ne_code/feature/debug_cfw.py。可以提取测试swc文件的特征。
 （修改830以及974行文件路径）
 运行ne_code/network/scmcv下代码，可分别输出随机森林（skrf_scvcm），决策树（skdt_scvcm），svm（svm_scvcm.py）的训练结果以及混淆矩阵
 
 错误预测
+在运行代码前，需要事先在error_test文件夹中创建空的txt文件，如error.txt
 运行ne_code/feature/error.py。可以提取测试swc文件的特征。（同理修改文件路径）
 运行ne_code/network/scmcv下代码，可分别输出随机森林（skrf_scvcm），决策树（skdt_scvcm），svm（svm_scvcm.py）的训练结果以及混淆矩阵
 
